@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Tutorials from "./tutorials/page";
+import Image from "next/image";
 export default async function Home() {
   return (
     <>
@@ -28,11 +29,7 @@ export default async function Home() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 m-auto">
-            <img
-              className="object-cover object-center rounded custom-clip-path"
-              alt="hero"
-              src="https://source.unsplash.com/random/500x500?developer"
-            />
+            <Image src="https://source.unsplash.com/random/500x500?developer" width={500} height={500} alt="Blog" className="object-cover object-center rounded custom-clip-path"/>
           </div>
         </div>
       </section>

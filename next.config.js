@@ -10,3 +10,11 @@ module.exports = {
     },
   };
   
+ // next.config.js
+
+module.exports = {
+  images: {
+    domains: ['source.unsplash.com'], // Add source.unsplash.com to the list of allowed domains
+  },
+};
+ 
