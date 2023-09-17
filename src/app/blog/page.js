@@ -49,6 +49,7 @@ const Blog = async () => {
           {res.map((val) => {
             return (
               <BlogCards
+                key={val.slug.current} // Use a unique identifier as the key
                 title={val.title}
                 description={val.description}
                 slug={val.slug.current}
@@ -56,8 +57,6 @@ const Blog = async () => {
               />
             );
           })}
-          {/* <BlogCards/>
-        <BlogCards/> */}
         </div>
       </div>
     </section>
