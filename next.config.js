@@ -6,15 +6,9 @@ module.exports = nextConfig
 // next.config.js
 module.exports = {
     images: {
-      domains: ['cdn.sanity.io'],
+      domains: ["https://source.unsplash.com/random/200x200?sig=1"],
     },
   };
-  
- // next.config.js
 
-module.exports = {
-  images: {
-    domains: ['source.unsplash.com'], // Add source.unsplash.com to the list of allowed domains
-  },
-};
- 
+
+
