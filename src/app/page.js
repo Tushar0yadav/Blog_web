@@ -3,7 +3,7 @@ import Hero from "./layout/hero";
 
 export default async function Home() {
   return (
-    <>
+    <div>
       <Hero />
       <Tutorials />
       <section className="text-gray-600 body-font">
@@ -72,6 +72,6 @@ export default async function Home() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
