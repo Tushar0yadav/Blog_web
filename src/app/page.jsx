@@ -3,6 +3,7 @@ import Hero from "./layout/hero";
 
 export default async function Home() {
   return (
+    <>
     <div>
       <Hero />
       <Tutorials />
@@ -73,5 +74,6 @@ export default async function Home() {
         </div>
       </section>
     </div>
+    </>
   );
 }
