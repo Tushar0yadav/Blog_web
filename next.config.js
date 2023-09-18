@@ -3,12 +3,8 @@ const nextConfig = {}
 
 module.exports = nextConfig
 
-// next.config.js
-module.exports = {
+  module.exports = {
     images: {
-      domains: ["https://source.unsplash.com/random/200x200?sig=1"],
+      domains: ['cdn.sanity.io','source.unsplash.com'], // Add your domain(s) here
     },
   };
-
-
-
